@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "5f13b6bf24afbb23a97d9f4c",
+    "email": "jane@gmail.com",
+    "password": "janepassword",
+    "name": "jane",
+    "__v": 0
+  },
+  {
+    "_id": "5f13b6dd8db1e94ea02f70b3",
+    "email": "john@gmail.com",
+    "password": "johnpassword",
+    "name": "john",
+    "__v": 0
+  },
+  {
+    "_id": "5f13b6dd8db1e94ea02f70b4",
+    "email": "jane@gmail.com",
+    "password": "janepassword",
+    "name": "jane",
+    "__v": 0
+  },
+  {
+    "_id": "5f13b6e3784b2816d5f30a65",
+    "email": "john@gmail.com",
+    "password": "johnpassword",
+    "name": "john",
+    "__v": 0
+  },
+  {
+    "_id": "5f13b6e3784b2816d5f30a66",
+    "email": "jane@gmail.com",
+    "password": "janepassword",
+    "name": "jane",
+    "__v": 0
+  },
+  {
+    "_id": "5f13c6ef19af3b4d88b3eece",
+    "email": "newTest@gmail.com",
+    "password": "newPassword",
+    "name": "newTest",
+    "__v": 0
+  }
+]

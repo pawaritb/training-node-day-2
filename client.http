@@ -1,0 +1,52 @@
+@host = http://localhost:3000/api
+
+GET {{host}}
+
+###
+
+GET {{host}}/users
+
+###
+
+GET {{host}}/users?name=john
+###
+
+POST {{host}}/users
+Content-Type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "testpassword",
+    "name": "test"
+}
+
+###
+
+DELETE {{host}}/users/5f13c75219af3b4d88b3eed3
+
+###
+
+PUT {{host}}/users/5f13c6ef19af3b4d88b3eece
+Content-Type: application/json
+
+{
+    "email": "newTest1@gmail.com",
+    "password": "newPassword",
+    "name": "newTest"
+}
+
+###
+
+POST {{host}}/posts
+Content-Type: application/json
+
+{
+    "title": "rocket",
+    "detail" : "V8"
+}
+
+###
+
+GET {{host}}/posts
+
+###
